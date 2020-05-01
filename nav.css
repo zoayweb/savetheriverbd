@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+#topbar .social-links {
+    font-size: 18px;
+}
+
+.logo-img img {
+    height: 100px;
+}
+
+.navbar-brand img {
+    height: 100px;
+}
+
+header {
+    background: #6bc4f8;
+
+
+}
+
+.menu-area {
+    background: #6bc4f8;
+    padding-top: 40px;
+}
+
+.dropdown-menu {
+    padding: 0;
+    margin: 0;
+    border: 0 solid transition !important;
+    border: 0 solid rgba(0, 0, 0, .15);
+    border-radius: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.mainmenu a,
+.navbar-default .navbar-nav>li>a,
+.mainmenu ul li a,
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 16px 15px;
+    font-family: 'Roboto', sans-serif;
+    display: block !important;
+    font-weight: 500;
+}
+
+.mainmenu .active a,
+.mainmenu .active a:focus,
+.mainmenu .active a:hover,
+.mainmenu li a:hover,
+.mainmenu li a:focus,
+.navbar-default .navbar-nav>.show>a,
+.navbar-default .navbar-nav>.show>a:focus,
+.navbar-default .navbar-nav>.show>a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*==========Sub Menu=v==========*/
+.mainmenu .collapse ul>li:hover>a {
+    background: #a3e974;
+}
+
+.mainmenu .collapse ul ul>li:hover>a,
+.navbar-default .navbar-nav .show .dropdown-menu>li>a:focus,
+.navbar-default .navbar-nav .show .dropdown-menu>li>a:hover {
+    /* background: #F08714; */
+    background: #86bd61;
+}
+
+.mainmenu .collapse ul ul ul>li:hover>a {
+    background: #4CAF50;
+}
+
+.mainmenu .collapse ul ul,
+.mainmenu .collapse ul ul.dropdown-menu {
+    background: #1565C0;
+}
+
+.mainmenu .collapse ul ul ul,
+.mainmenu .collapse ul ul ul.dropdown-menu {
+    background: #1E88E5
+}
+
+.mainmenu .collapse ul ul ul ul,
+.mainmenu .collapse ul ul ul ul.dropdown-menu {
+    background: #64B5F6
+}
+
+/******************************Drop-down menu work on hover**********************************/
+.mainmenu {
+    background: none;
+    border: 0 solid;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+    .mainmenu .collapse ul li:hover>ul {
+        display: block
+    }
+
+    .mainmenu .collapse ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 250px;
+        display: none
+    }
+
+    /*******/
+    .mainmenu .collapse ul ul li {
+        position: relative
+    }
+
+    .mainmenu .collapse ul ul li:hover>ul {
+        display: block
+    }
+
+    .mainmenu .collapse ul ul ul {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        min-width: 250px;
+        display: none
+    }
+
+    /*******/
+    .mainmenu .collapse ul ul ul li {
+        position: relative
+    }
+
+    .mainmenu .collapse ul ul ul li:hover ul {
+        display: block
+    }
+
+    .mainmenu .collapse ul ul ul ul {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        min-width: 250px;
+        display: none;
+        z-index: 1
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav .show .dropdown-menu .dropdown-menu>li>a {
+        padding: 16px 15px 16px 35px
+    }
+
+    .navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu>li>a {
+        padding: 16px 15px 16px 45px
+    }
+}
+
+
+/* --------------------------------- BACKGROUND VIDEO ------------------------------*/
+
+.row-hero {
+
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media(min-width: 480px) {
+    .row-hero {
+        height: 25rem;
+    }
+}
+
+@media(min-width: 720px) {
+    .row-hero {
+        height: 35rem;
+    }
+}
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    width: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.video-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    width: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(../images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+.video-quote {
+
+    top: 50%;
+    padding: 2.5rem 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 500px) {
+    .org-name {
+        font-size: 20px;
+    }
+
+    .video-quote {
+        padding: 1rem;
+    }
+}
+
+
+/* ------------------------------------------------------ COMMON PAGE BACKGROUND ----------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,900italic,900,700italic,700,400italic);
+
+.jumbotron-fluid section {
+    color: #000000;
+    padding: 10px 0;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url("https://media-eng.dhakatribune.com/uploads/2018/03/Syed-Zakir-Hossain-6932.jpg");
+}
+
+.divider {
+    padding: 0;
+    margin: 0;
+}
+
+.divider h1 {
+    margin: 10%;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Paytone One',
+        sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    .divider h1 {
+        font-size: 20px;
+    }
+
+}
+
+.get-involved u {
+    color: #34b4db;
+    font-weight: bold;
+}
