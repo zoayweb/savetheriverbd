@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 p {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 500;
     color: #000000;
 }
 
 #topbar .social-links {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .logo-img img {
@@ -16,17 +16,16 @@ p {
 
 .navbar-brand img {
     height: 100px;
+    width: 90px;
 }
 
 header {
     background: #6bc4f8;
-
-
 }
 
 .menu-area {
     background: #6bc4f8;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 .dropdown-menu {
@@ -44,7 +43,7 @@ header {
 .mainmenu ul li a,
 .navbar-expand-lg .navbar-nav .nav-link {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 16.5px;
     text-transform: uppercase;
     padding: 16px 15px;
     font-family: 'Roboto', sans-serif;
@@ -252,7 +251,6 @@ header {
     background-size: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-image: url("https://media-eng.dhakatribune.com/uploads/2018/03/Syed-Zakir-Hossain-6932.jpg");
 }
 
 .divider {
@@ -279,4 +277,266 @@ header {
 .get-involved u {
     color: #34b4db;
     font-weight: bold;
+}
+
+
+/* ----------------------------------- BLOG PAGE -------------------------------------- */
+
+.sub-title {
+    color: #53a9e2;
+    font-weight: bold;
+}
+
+#blog-section h3 {
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+#blog-section p {
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    #blog-section h3 {
+        font-size: 1.5rem;
+    }
+
+    #blog-section p {
+        font-size: 17px;
+    }
+}
+
+
+/*-------------------------------------- TEAM PAGE ------------------------------------*/
+
+
+
+#team {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    font-family: 'Fresca',
+        sans-serif;
+}
+
+#team b {
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+    font-size: 14.2px;
+}
+
+#team .card {
+    width: 33%;
+    min-width: 250px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 0.5% 1% 0;
+    display: inline-block
+}
+
+#team .card:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+#team .card img {
+    width: 100%;
+    min-height: 100%;
+    transition: all 0.9s
+}
+
+#team .card:hover img {
+    transform: scale(1.2, 1.2)
+}
+
+.data {
+    position: absolute;
+    bottom: 5%;
+    background: #fff;
+    text-align: center;
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 10px 5%;
+    box-sizing: border-box;
+    opacity: 0.6;
+    transition: all 0.4s
+}
+
+#team .card:hover .data {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    opacity: 0.9;
+    padding: 90px 5%
+}
+
+.data h2 {
+    margin: 0 0 5px 0;
+    transition: color 0.4s;
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+}
+
+.data p {
+    opacity: 0;
+    font-size: 18px;
+    transition: all 0.2s
+}
+
+#team .card:hover .data p,
+#team .card:hover .data a {
+    opacity: 1
+}
+
+.data a {
+    color: #333;
+    text-decoration: none;
+    padding: 20px;
+    opacity: 0
+}
+
+.data a:hover,
+#team .card:hover h2 {
+    color: #38c
+}
+
+@media (max-width:799px) {
+    #team .card {
+        width: 100%;
+        margin-right: 0
+    }
+}
+
+
+
+/* follow me @nodws */
+.btn-twtr {
+    color: #ddd;
+    border: 2px solid;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
+    opacity: 0.8
+}
+
+
+/*********************** GENERAL CLIMATE LITERACY PAGE *********************************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+
+#literacy-videos {
+    display: table;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto';
+}
+
+#literacy-videos p {
+    font-size: 17px;
+}
+
+.container-fostrap {
+    display: table-cell;
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fostrap-logo {
+    width: 100px;
+    margin-bottom: 15px
+}
+
+#literacy-videos h1.heading {
+    color: #fff;
+    font-size: 1.15em;
+
+    margin: 0 0 0.5em;
+    color: #505050;
+    text-transform: capitalize;
+}
+
+@media (min-width: 450px) {
+    #literacy-videos h1.heading {
+        font-size: 2.5em;
+    }
+}
+
+@media (min-width: 760px) {
+    #literacy-videos h1.heading {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 900px) {
+    #literacy-videos h1.heading {
+        font-size: 2.5em;
+        margin: 0 0 0.3em;
+    }
+}
+
+#literacy-videos .card {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: box-shadow .25s;
+}
+
+#literacy-videos .card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#literacy-videos .img-card {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: block;
+    overflow: hidden;
+}
+
+#literacy-videos .img-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: all .25s ease;
+}
+
+#literacy-videos .card-content {
+    padding: 15px;
+    text-align: left;
+}
+
+#literacy-videos .card-title {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 1.65em;
+}
+
+#literacy-videos .card-title a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+
+
+#literacy-videos .card-read-more a {
+    text-decoration: none !important;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase
 }

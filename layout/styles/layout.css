@@ -32,7 +32,7 @@ h3 {
 --------------------------------------------------------------------------------------------------------------- */
 #topbar {
   padding: 15px 30px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 #topbar * {
@@ -903,7 +903,8 @@ td {
 
 
 a {
-  color: #F08714;
+  color: #a3e974;
+  ;
 }
 
 a:active,
@@ -925,7 +926,8 @@ label span {
 input:focus,
 textarea:focus,
 *:required:focus {
-  border-color: #F08714;
+  border-color: #a3e974;
+  ;
 }
 
 .overlay {
@@ -941,8 +943,10 @@ textarea:focus,
 .btn,
 .btn.inverse:hover {
   color: #FFFFFF;
-  background-color: #F08714;
-  border-color: #F08714;
+  background-color: #a3e974;
+  ;
+  border-color: #a3e974;
+  ;
 }
 
 .btn:hover,
@@ -961,7 +965,8 @@ textarea:focus,
 }
 
 .flex-direction-nav a:hover {
-  color: #F08714;
+  color: #a3e974;
+  ;
 }
 
 
@@ -1044,7 +1049,8 @@ textarea:focus,
 }
 
 .latest article figure figcaption time strong {
-  background-color: #F08714;
+  background-color: #a3e974;
+  ;
 }
 
 .latest article figure figcaption time em {
@@ -1068,7 +1074,8 @@ textarea:focus,
 
 #footer nav li:first-child a,
 #footer nav a:hover {
-  color: #F08714;
+  color: #a3e974;
+  ;
 }
 
 #footer .linklist li {
@@ -1086,12 +1093,14 @@ textarea:focus,
 }
 
 #footer input:focus {
-  border-color: #F08714;
+  border-color: #a3e974;
+  ;
 }
 
 #footer button {
   color: #FFFFFF;
-  background-color: #F08714;
+  background-color: #a3e974;
+  ;
 }
 
 
@@ -1103,7 +1112,8 @@ textarea:focus,
 #mainav .active a,
 #mainav a:hover,
 #mainav li:hover>a {
-  color: #F08714;
+  color: #a3e974;
+  ;
   background-color: inherit;
 }
 
@@ -1117,7 +1127,8 @@ textarea:focus,
 #mainav li li:hover>a,
 #mainav .active .active>a {
   color: #FFFFFF;
-  background-color: #F08714;
+  background-color: #a3e974;
+  ;
 }
 
 #mainav form select {
@@ -1132,7 +1143,8 @@ textarea:focus,
 }
 
 #breadcrumb li:last-child a {
-  color: #F08714;
+  color: #a3e974;
+  ;
 }
 
 .container .sidebar nav a {
@@ -1141,7 +1153,8 @@ textarea:focus,
 }
 
 .container .sidebar nav a:hover {
-  color: #F08714;
+  color: #a3e974;
+  ;
 }
 
 .pagination a,
@@ -1151,61 +1164,16 @@ textarea:focus,
 
 .pagination .current * {
   color: #FFFFFF;
-  background-color: #F08714;
+  background-color: #a3e974;
+  ;
 }
 
 #backtotop {
   color: #FFFFFF;
-  background-color: #F08714;
+  background-color: #a3e974;
+  ;
 }
 
-
-/* Tables + Comments */
-table,
-th,
-td,
-#comments .avatar,
-#comments input,
-#comments textarea {
-  border-color: #D7D7D7;
-}
-
-#comments input:focus,
-#comments textarea:focus,
-#comments *:required:focus {
-  border-color: #F08714;
-}
-
-th {
-  color: #FFFFFF;
-  background-color: #373737;
-}
-
-tr,
-#comments li,
-#comments input[type="submit"],
-#comments input[type="reset"] {
-  color: inherit;
-  background-color: #FBFBFB;
-}
-
-tr:nth-child(even),
-#comments li:nth-child(even) {
-  color: inherit;
-  background-color: #F7F7F7;
-}
-
-table a,
-#comments a {
-  background-color: inherit;
-}
-
-
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
 
 
 /* Media Queries
